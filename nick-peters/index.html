@@ -2,21 +2,49 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Day 2 Example Page</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <title>CSS Test</title>
+    <link rel="stylesheet" href="sample.css">
+    <script>
+      Animal = {
+        playful: "",
+        annoying: "",
+        texture: "",
+        legs: "",
+        eyes: "",
+        sound: "",
+        height: "",
+        width: "",
+        weight: "",
+
+        fly: function() {},
+        walk: function() {},
+        run: function() {},
+        fight: function() {},
+        eat: function() {},
+        sleep: function() {},
+        mood: function() {}
+      };
+      console.log(Animal);
+    </script>
   </head>
 
   <body>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-
     <header>An Example</header>
+    <nav>Fly
+      Walk
+      Run
+      Fight
+      Eat
+      Sleep
+      Mood</nav>
     <section>
-      Hello There!
+      <article>
+        <a class="link" href="http://www.google.com">GOOGLE</a>
+        <p id="firstParagraph">Hello There!</p>
+        <p id="secondParagraph">Animal</p>
+        <p>Goodbye</p>
+      </article>
+      <footer>My Feet</footer>
     </section>
 
   </body>
